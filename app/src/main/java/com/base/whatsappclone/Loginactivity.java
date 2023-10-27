@@ -55,7 +55,7 @@ public class Loginactivity extends AppCompatActivity {
                                     public void onSuccess(AuthResult authResult) {
 
                                         Toast.makeText(Loginactivity.this, "it was a Success", Toast.LENGTH_SHORT).show();
-                                        startActivity(new Intent(Loginactivity.this, MainActivity.class));
+                                        startActivity(new Intent(Loginactivity.this, WhatsAppActivity.class));
 
 
                                     }
